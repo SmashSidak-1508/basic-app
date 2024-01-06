@@ -1,0 +1,50 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#chat{
+    margin-right: 10px;
+}
+#message {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+    width: 300px;
+}
+
+#message:focus {
+    border-color: #2ecc71;
+}
+
+::placeholder {
+    color: #95a5a6;
+}
+
+
+body {
+    background-color: #ecf0f1;
+}
+
+#sendBtn {
+    padding: 10px 20px;
+    margin-left: 15px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#sendBtn:hover {
+    background-color: #2980b9;
+}
